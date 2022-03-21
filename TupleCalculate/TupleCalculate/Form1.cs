@@ -62,7 +62,7 @@ namespace TupleCalculate
             }
             */
             OleDbConnection cnn = new OleDbConnection();
-            string ss = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\1111\尺寸資料.xlsx;";
+            string ss = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Ryoma\NET\Web\TubeToExcel\尺寸資料.xlsx;";
             ss += "Extended Properties=\"Excel 12.0;HDR=YES;\"";
             cnn.ConnectionString = ss;
             using (OleDbCommand cmd = new OleDbCommand())
